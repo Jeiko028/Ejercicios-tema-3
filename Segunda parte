@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        Coche coche1 = new Coche();
+        coche1.sumaPuerta();
+        coche1.sumaPuerta();
+        System.out.println( coche1.nPuerta);
+    }
+}
+    class Coche {
+        public int nPuerta = 0;
+        public void sumaPuerta() {
+            this.nPuerta++;
+        }
+    }
